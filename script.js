@@ -1,4 +1,4 @@
-/*slowMath.add(6, 2)
+slowMath.add(6, 2)
 .then(result => {
     console.log(result)
     return slowMath.multiply(result, 2);
@@ -36,7 +36,7 @@
 })
 .catch(error => {
     console.log(error);
-});*/
+});
 
 async function doMath() {
     try {
